@@ -1,0 +1,107 @@
+@import "../../Main/Colors.scss";
+.Services {
+    margin-top: 50px;
+}
+.ServiceCard {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 370px;
+    height: 500px;
+    padding: 50px 30px;
+    cursor: pointer;
+    border-radius: 30px;
+    border: 1px solid $Stroke;
+
+    .priceGet {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        gap: 15px;
+        height: 100px;
+        border-bottom: 2px solid $Stroke_;
+        margin-bottom: 10px;
+        .Price {
+            color: $Black;
+            font-size: 45px;
+            font-family: main_sb;
+        }
+        .Line {
+            height: 4px;
+            width: 40px;
+            border-radius: 5px;
+            background-color: $Black__;
+        }
+        .Assist {
+            color: $Black__;
+            font-size: 24px;
+            font-family: main_r;
+        }
+    }
+    h2 {
+        font-size: 24px;
+        font-family: main_sb;
+        color: $Black_;
+        margin-bottom: 30px;
+    }
+    .Promotions {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        .Promotion {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            .PromotionLogo {
+                height: 31px;
+                aspect-ratio: 1;
+                border-radius: 50%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: $Yellow;
+            }
+            p {
+                font-family: main_r;
+                color: $Black__;
+                font-size: 18px;
+                letter-spacing: 1px;
+            }
+        }
+    }
+}
+.ActiveService {
+    transform: translateY(-50px);
+    background-color: $MainColor;
+    border: 0;
+    .priceGet {
+        border-bottom: 2px solid $Stroke_;
+        .Price {
+            color: $White;
+        }
+        .Line {
+            background-color: $Whiter;
+        }
+        .Assist {
+            color: $Whiter_;
+        }
+    }
+    h2 {
+        color: $White;
+    }
+    .Promotions {
+        .Promotion {
+            p {
+                color: $Whiter__;
+            }
+        }
+    }
+}
+.ServiceCards {
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 30px;
+}

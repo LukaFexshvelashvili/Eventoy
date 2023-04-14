@@ -1,0 +1,104 @@
+.Services {
+  margin-top: 50px;
+}
+
+.ServiceCard {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 370px;
+  height: 500px;
+  padding: 50px 30px;
+  cursor: pointer;
+  border-radius: 30px;
+  border: 1px solid #aaa6a6;
+}
+.ServiceCard .priceGet {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  gap: 15px;
+  height: 100px;
+  border-bottom: 2px solid #c8c1c1;
+  margin-bottom: 10px;
+}
+.ServiceCard .priceGet .Price {
+  color: #000000;
+  font-size: 45px;
+  font-family: main_sb;
+}
+.ServiceCard .priceGet .Line {
+  height: 4px;
+  width: 40px;
+  border-radius: 5px;
+  background-color: #888888;
+}
+.ServiceCard .priceGet .Assist {
+  color: #888888;
+  font-size: 24px;
+  font-family: main_r;
+}
+.ServiceCard h2 {
+  font-size: 24px;
+  font-family: main_sb;
+  color: #121212;
+  margin-bottom: 30px;
+}
+.ServiceCard .Promotions {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.ServiceCard .Promotions .Promotion {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.ServiceCard .Promotions .Promotion .PromotionLogo {
+  height: 31px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f5ba24;
+}
+.ServiceCard .Promotions .Promotion p {
+  font-family: main_r;
+  color: #888888;
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+
+.ActiveService {
+  transform: translateY(-50px);
+  background-color: #14d49e;
+  border: 0;
+}
+.ActiveService .priceGet {
+  border-bottom: 2px solid #c8c1c1;
+}
+.ActiveService .priceGet .Price {
+  color: #ffffff;
+}
+.ActiveService .priceGet .Line {
+  background-color: #e6e6e6;
+}
+.ActiveService .priceGet .Assist {
+  color: #e7e7e7;
+}
+.ActiveService h2 {
+  color: #ffffff;
+}
+.ActiveService .Promotions .Promotion p {
+  color: #e8e8e8;
+}
+
+.ServiceCards {
+  margin-top: 150px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 30px;
+}

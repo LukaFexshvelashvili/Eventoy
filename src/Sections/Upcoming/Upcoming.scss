@@ -1,14 +1,14 @@
 @import "../../Main/Colors.scss";
-
+.Title {
+    color: $Black_;
+    font-size: 45px;
+    text-align: center;
+    letter-spacing: 1px;
+    font-family: main_sb;
+}
 .Upcoming {
     margin-top: 80px;
-    .Title {
-        color: $Black_;
-        font-size: 45px;
-        text-align: center;
-        letter-spacing: 1px;
-        font-family: main_sb;
-    }
+
     .SplitRows {
         margin-top: 80px;
         .PopularEvent {
