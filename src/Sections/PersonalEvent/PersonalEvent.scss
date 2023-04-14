@@ -1,0 +1,41 @@
+@import "../../Main/Colors.scss";
+
+.SplitRows {
+    display: flex;
+    align-items: center;
+    .InfoSide {
+        display: flex;
+        justify-content: center;
+        .Info {
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            h1 {
+                font-size: 45px;
+                color: $Black_;
+                max-width: 600px;
+                font-family: main_sb;
+                line-height: 60px;
+            }
+            .Condition {
+                display: flex;
+                gap: 15px;
+                .Dot {
+                    margin-top: 8px;
+                    height: 10px;
+                    aspect-ratio: 1;
+                    border-radius: 50%;
+                    background-color: $Lime;
+                    letter-spacing: 2px;
+                }
+                p {
+                    letter-spacing: 2px;
+                    color: $Black__;
+                    font-family: main_r;
+                    max-width: 500px;
+                    line-height: 30px;
+                }
+            }
+        }
+    }
+}

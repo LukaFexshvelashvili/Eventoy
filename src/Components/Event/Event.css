@@ -1,0 +1,44 @@
+.Event {
+  display: flex;
+  gap: 20px;
+}
+.Event .Day {
+  color: #f5ba24;
+  letter-spacing: 1px;
+  font-family: main_sb;
+  font-size: 24px;
+  white-space: nowrap;
+}
+.Event .Content {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.Event .Content h2 {
+  color: #121212;
+  letter-spacing: 1px;
+  font-family: main_sb;
+  font-size: 22px;
+}
+.Event .Content p {
+  letter-spacing: 1px;
+  color: #888888;
+  font-family: main_r;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  max-width: 600px;
+}
+.Event .Content p .Dot {
+  display: block;
+  height: 6px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  background-color: #2fc92b;
+  letter-spacing: 2px;
+  margin: 0 10px;
+  transform: translateY(-3px);
+}
+.Event .Arrow img {
+  cursor: pointer;
+}

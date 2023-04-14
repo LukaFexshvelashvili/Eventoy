@@ -1,0 +1,36 @@
+.Schedules {
+  margin-top: 150px;
+}
+.Schedules .SecRow {
+  display: flex;
+}
+.Schedules .SecRow .LeftSide {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.Schedules .SecRow .LeftSide h1 {
+  font-family: main_sb;
+  font-size: 45px;
+  letter-spacing: 1px;
+  color: #121212;
+}
+.Schedules .SecRow .LeftSide p {
+  letter-spacing: 1px;
+  color: #888888;
+  font-family: main_r;
+  font-size: 18px;
+  max-width: 500px;
+  line-height: 30px;
+}
+.Schedules .SecRow .LeftSide .BBlock {
+  margin-top: 20px;
+}
+.Schedules .SecRow .RightSide {
+  padding-left: 50px;
+}
+.Schedules .SecRow .RightSide .EventsRow {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}

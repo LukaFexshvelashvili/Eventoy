@@ -1,0 +1,17 @@
+@import "./Colors.scss";
+
+.DButton {
+    border-radius: 10px;
+    padding: 10px 35px;
+    background-color: $MainColor;
+    color: $White;
+    font-family: main_sb;
+    font-size: 18px;
+    letter-spacing: 1px;
+    border: 0;
+    cursor: pointer;
+    transition: 0.2s;
+    &:hover {
+        background-color: $MainColor_;
+    }
+}

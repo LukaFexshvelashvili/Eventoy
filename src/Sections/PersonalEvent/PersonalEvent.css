@@ -1,0 +1,39 @@
+.SplitRows {
+  display: flex;
+  align-items: center;
+}
+.SplitRows .InfoSide {
+  display: flex;
+  justify-content: center;
+}
+.SplitRows .InfoSide .Info {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.SplitRows .InfoSide .Info h1 {
+  font-size: 45px;
+  color: #121212;
+  max-width: 600px;
+  font-family: main_sb;
+  line-height: 60px;
+}
+.SplitRows .InfoSide .Info .Condition {
+  display: flex;
+  gap: 15px;
+}
+.SplitRows .InfoSide .Info .Condition .Dot {
+  margin-top: 8px;
+  height: 10px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  background-color: #2fc92b;
+  letter-spacing: 2px;
+}
+.SplitRows .InfoSide .Info .Condition p {
+  letter-spacing: 2px;
+  color: #888888;
+  font-family: main_r;
+  max-width: 500px;
+  line-height: 30px;
+}

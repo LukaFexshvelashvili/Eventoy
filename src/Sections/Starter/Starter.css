@@ -1,0 +1,86 @@
+.Starter {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 800px;
+}
+.Starter .SectionSplitter {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.Starter .SectionSplitter .InfoSide {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.Starter .SectionSplitter .InfoSide h1 {
+  font-family: main_sb;
+  color: #121212;
+  letter-spacing: 1px;
+  font-size: 50px;
+  line-height: 60px;
+}
+.Starter .SectionSplitter .InfoSide p {
+  font-family: main_r;
+  color: #888888;
+  font-size: 20x;
+  letter-spacing: 1px;
+}
+.Starter .SectionSplitter .InfoSide button {
+  border-radius: 10px;
+  font-size: 18px;
+  color: #ffffff;
+  background-color: #000000;
+  font-family: main_sb;
+  padding: 12px 30px;
+  letter-spacing: 1px;
+  border: 0;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.Starter .SectionSplitter .InfoSide button:hover {
+  background-color: #121212;
+}
+.Starter .SectionSplitter .InfoSide .Details {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin-top: 30px;
+}
+.Starter .SectionSplitter .InfoSide .Details .DetCol {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.Starter .SectionSplitter .InfoSide .Details .DetCol .Num {
+  font-size: 48px;
+  color: #121212;
+  letter-spacing: 2px;
+  font-family: main_sb;
+}
+.Starter .SectionSplitter .InfoSide .Details .DetCol .Tex {
+  width: 100px;
+  font-size: 18px;
+  letter-spacing: 1px;
+  font-family: main_r;
+  color: #888888;
+}
+.Starter .SectionSplitter .ImageSide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.Starter .SectionSplitter .ImageSide::before {
+  position: absolute;
+  content: "";
+  height: 100%;
+  width: 100%;
+  background: #14d49e;
+  border-radius: 30px;
+}
+.Starter .SectionSplitter .ImageSide img {
+  position: relative;
+}

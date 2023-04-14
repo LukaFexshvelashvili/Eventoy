@@ -1,0 +1,54 @@
+@import "../../Main/Colors.scss";
+.navCont {
+    position: relative;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    width: 100%;
+    top: 20px;
+    .NavLogo {
+        font-size: 28px;
+        color: $MainColor;
+        letter-spacing: 1px;
+        font-family: main_sb;
+        cursor: pointer;
+    }
+    ul {
+        display: flex;
+        align-items: center;
+        gap: 30px;
+        li {
+            position: relative;
+            font-family: main_r;
+            list-style: none;
+            color: $Black__;
+            font-size: 20px;
+            cursor: pointer;
+            display: flex;
+            transition: 0.2s;
+            justify-content: center;
+            &::before {
+                content: "";
+                position: absolute;
+                bottom: -2px;
+                height: 2px;
+                width: 0%;
+                background-color: $MainColor;
+                transition: 0.2s;
+            }
+            &:hover:before {
+                width: 100%;
+            }
+            &:hover {
+                color: $MainColor;
+            }
+        }
+        .liActive {
+            font-family: main_sb;
+            color: $MainColor;
+        }
+    }
+}

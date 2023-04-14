@@ -1,0 +1,38 @@
+@import "../../Main/Colors.scss";
+
+.Schedules {
+    margin-top: 150px;
+    .SecRow {
+        display: flex;
+        .LeftSide {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            h1 {
+                font-family: main_sb;
+                font-size: 45px;
+                letter-spacing: 1px;
+                color: $Black_;
+            }
+            p {
+                letter-spacing: 1px;
+                color: $Black__;
+                font-family: main_r;
+                font-size: 18px;
+                max-width: 500px;
+                line-height: 30px;
+            }
+            .BBlock {
+                margin-top: 20px;
+            }
+        }
+        .RightSide {
+            padding-left: 50px;
+            .EventsRow {
+                display: flex;
+                flex-direction: column;
+                gap: 50px;
+            }
+        }
+    }
+}

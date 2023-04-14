@@ -1,0 +1,54 @@
+.navCont {
+  position: relative;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: absolute;
+  width: 100%;
+  top: 20px;
+}
+nav .NavLogo {
+  font-size: 28px;
+  color: #14d49e;
+  letter-spacing: 1px;
+  font-family: main_sb;
+  cursor: pointer;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+nav ul li {
+  position: relative;
+  font-family: main_r;
+  list-style: none;
+  color: #888888;
+  font-size: 20px;
+  cursor: pointer;
+  display: flex;
+  transition: 0.2s;
+  justify-content: center;
+}
+nav ul li::before {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  height: 2px;
+  width: 0%;
+  background-color: #14d49e;
+  transition: 0.2s;
+}
+nav ul li:hover:before {
+  width: 100%;
+}
+nav ul li:hover {
+  color: #14d49e;
+}
+nav ul .liActive {
+  font-family: main_sb;
+  color: #14d49e;
+}

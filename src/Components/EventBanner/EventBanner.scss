@@ -1,0 +1,32 @@
+@import "../../Main/Colors.scss";
+.EventBanner {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    .EventImage {
+        cursor: pointer;
+    }
+    .EventContent {
+        p {
+            font-size: 14px;
+            letter-spacing: 1px;
+            color: $Black__;
+            font-family: main_r;
+            margin-bottom: 8px;
+        }
+        h3 {
+            color: $Black_;
+            font-size: 20px;
+            cursor: pointer;
+            font-family: main_sb;
+        }
+        .Dets {
+            margin-top: 20px;
+            .Det {
+                color: $Black__;
+                letter-spacing: 1px;
+                cursor: pointer;
+            }
+        }
+    }
+}

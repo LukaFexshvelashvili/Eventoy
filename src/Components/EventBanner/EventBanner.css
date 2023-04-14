@@ -1,0 +1,29 @@
+.EventBanner {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.EventBanner .EventImage {
+  cursor: pointer;
+}
+.EventBanner .EventContent p {
+  font-size: 14px;
+  letter-spacing: 1px;
+  color: #888888;
+  font-family: main_r;
+  margin-bottom: 8px;
+}
+.EventBanner .EventContent h3 {
+  color: #121212;
+  font-size: 20px;
+  cursor: pointer;
+  font-family: main_sb;
+}
+.EventBanner .EventContent .Dets {
+  margin-top: 20px;
+}
+.EventBanner .EventContent .Dets .Det {
+  color: #888888;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
