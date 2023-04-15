@@ -1,5 +1,5 @@
 import "./Starter.css";
-import BG1 from "../../Images/Bg1.png";
+import BG1 from "../../Images/Bg1.webp";
 
 export default function Starter() {
   return (

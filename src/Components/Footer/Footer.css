@@ -1,0 +1,30 @@
+footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 200px;
+  padding-bottom: 50px;
+}
+footer .FCol {
+  display: flex;
+  flex-direction: column;
+  max-width: 20%;
+  gap: 20px;
+}
+footer .FCol .FS {
+  display: inline-flex;
+}
+footer .FCol h2 {
+  margin-bottom: 10px;
+  font-size: 24px;
+  font-family: main_sb;
+  color: #121212;
+}
+footer .FCol .FD {
+  display: inline-flex;
+}
+footer .FCol p {
+  font-size: 18px;
+  font-family: main_r;
+  color: #888888;
+  cursor: pointer;
+}

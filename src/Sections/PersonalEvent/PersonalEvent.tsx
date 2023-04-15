@@ -1,5 +1,5 @@
 import "./PersonalEvent.css";
-import BG2 from "../../Images/Event.png";
+import BG2 from "../../Images/Event.webp";
 export default function PersonalEvent() {
   return (
     <div className="PersonalEvent SecPadder">

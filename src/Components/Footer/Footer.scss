@@ -1,0 +1,31 @@
+@import "../../Main/Colors.scss";
+footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 200px;
+    padding-bottom: 50px;
+    .FCol {
+        display: flex;
+        flex-direction: column;
+        max-width: 20%;
+        gap: 20px;
+        .FS {
+            display: inline-flex;
+        }
+        h2 {
+            margin-bottom: 10px;
+            font-size: 24px;
+            font-family: main_sb;
+            color: $Black_;
+        }
+        .FD {
+            display: inline-flex;
+        }
+        p {
+            font-size: 18px;
+            font-family: main_r;
+            color: $Black__;
+            cursor: pointer;
+        }
+    }
+}

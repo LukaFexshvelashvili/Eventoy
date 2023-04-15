@@ -1,0 +1,35 @@
+.UserCard {
+  padding: 30px;
+  background-color: #ffffff;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  box-shadow: 0px 20px 70px rgba(0, 0, 0, 0.08);
+  max-width: 560px;
+  width: 90%;
+}
+.UserCard .CardStart {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.UserCard .CardStart h2 {
+  font-family: main_sb;
+  color: #121212;
+  font-size: 24px;
+  margin-bottom: 3px;
+}
+.UserCard .CardStart p {
+  font-family: main_r;
+  color: #888888;
+  letter-spacing: 1px;
+  font-size: 16px;
+}
+.UserCard .CardDesc {
+  font-family: main_r;
+  color: #888888;
+  letter-spacing: 1px;
+  font-size: 18px;
+  line-height: 35px;
+}

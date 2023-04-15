@@ -13,6 +13,13 @@
     padding: 0;
     box-sizing: border-box;
 }
+::-webkit-scrollbar {
+    width: 10px;
+    background-color: $WhiteG;
+}
+::-webkit-scrollbar-thumb {
+    background-color: $MainColor;
+}
 img {
     user-select: none;
     pointer-events: none;
@@ -65,5 +72,186 @@ img {
 @media (min-width: 1600px) {
     .container {
         width: 1390px;
+    }
+}
+@media (max-width: 1200px) {
+    .g-6 {
+        width: 100%;
+    }
+    .Starter {
+        height: auto;
+        padding: 100px 0;
+
+        .SectionSplitter {
+            flex-direction: column;
+            .InfoSide {
+                text-align: center;
+                align-items: center;
+            }
+            .ImageSide {
+                width: 90%;
+            }
+        }
+    }
+    .Upcoming .SplitRows {
+        flex-direction: column-reverse;
+        gap: 40px;
+        .Populars {
+            justify-content: center;
+            width: 100%;
+            max-width: 650px;
+            padding: 0;
+        }
+        .PopularEvent {
+            margin: auto;
+        }
+    }
+    .ServiceCards {
+        align-items: center;
+        gap: 30px;
+        .ServiceCard {
+            flex: 1;
+        }
+        .ActiveService {
+            transform: translateY(0);
+        }
+    }
+}
+@media (max-width: 992px) {
+    .navToggle {
+        display: flex;
+    }
+    nav {
+        .navContent {
+            position: fixed;
+            flex-direction: column;
+            justify-content: space-evenly;
+            height: 100%;
+            width: 50%;
+            min-width: 250px;
+            background-color: $White;
+            top: 0;
+            box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+            right: -100%;
+            z-index: 9;
+            transition: 0.4s;
+            ul {
+                flex-direction: column;
+            }
+        }
+        .navGet {
+            right: 0;
+        }
+    }
+
+    .SplitRows {
+        flex-direction: column-reverse;
+        gap: 40px;
+        .InfoSide {
+            text-align: center;
+        }
+        .ImageSide {
+            text-align: center;
+        }
+    }
+    .Schedules .SecRow {
+        flex-direction: column;
+        gap: 50px;
+        .LeftSide {
+            text-align: center;
+            p {
+                margin: auto;
+            }
+        }
+        .RightSide {
+            padding: 0;
+        }
+    }
+    .g-4 {
+        width: 100%;
+    }
+    .g-5 {
+        width: 100%;
+    }
+    .g-7 {
+        width: 100%;
+    }
+    .UsersRow {
+        flex-wrap: wrap;
+    }
+    .Newsletter {
+        width: 100%;
+    }
+}
+@media (max-width: 700px) {
+    footer {
+        flex-direction: column;
+        gap: 40px;
+        .FCol {
+            max-width: 100%;
+            width: 100%;
+            text-align: center;
+            align-items: center;
+        }
+    }
+    .Starter .SectionSplitter .InfoSide .Details {
+        justify-content: center;
+    }
+}
+@media (max-width: 450px) {
+    .Feedbacks .container .StartRow {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+        .Title {
+            text-align: center;
+        }
+    }
+    .UserCard {
+        width: 100%;
+    }
+    .Newsletter h1 {
+        font-size: 32px;
+        line-height: 40px;
+    }
+    .Schedules .SecRow .RightSide .EventsRow {
+        gap: 60px;
+    }
+    .Event {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        p {
+            justify-content: center;
+        }
+    }
+}
+@media (max-width: 430px) {
+    .Title {
+        font-size: 32px;
+    }
+    .Starter .SectionSplitter .ImageSide img {
+        width: 90%;
+    }
+    .Upcoming .SplitRows .Populars {
+        gap: 60px;
+    }
+    .EventBanner {
+        flex-direction: column;
+        text-align: center;
+        .EventContent {
+            .Dets {
+                justify-content: center;
+            }
+        }
+    }
+    .SplitRows .ImageSide img {
+        width: 90%;
+    }
+    .ActiveService {
+        width: 100%;
+    }
+    .Schedules {
+        margin-top: 50px;
     }
 }

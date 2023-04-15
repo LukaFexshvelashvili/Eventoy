@@ -1,0 +1,36 @@
+@import "../../Main/Colors.scss";
+.UserCard {
+    padding: 30px;
+    background-color: $White;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    box-shadow: 0px 20px 70px rgba(0, 0, 0, 0.08);
+    max-width: 560px;
+    width: 90%;
+    .CardStart {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        h2 {
+            font-family: main_sb;
+            color: $Black_;
+            font-size: 24px;
+            margin-bottom: 3px;
+        }
+        p {
+            font-family: main_r;
+            color: $Black__;
+            letter-spacing: 1px;
+            font-size: 16px;
+        }
+    }
+    .CardDesc {
+        font-family: main_r;
+        color: $Black__;
+        letter-spacing: 1px;
+        font-size: 18px;
+        line-height: 35px;
+    }
+}

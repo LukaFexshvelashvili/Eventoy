@@ -1,0 +1,54 @@
+.Feedbacks {
+  margin: 50px 0;
+  min-height: 600px;
+  padding: 100px 0;
+  background: linear-gradient(to bottom, rgb(194, 240, 227), transparent);
+}
+.Feedbacks .container .StartRow {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.Feedbacks .container .StartRow .Title {
+  text-align: start;
+  max-width: 400px;
+}
+.Feedbacks .container .StartRow .SlideButtons {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.Feedbacks .container .StartRow .SlideButtons button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  border: 0;
+  cursor: pointer;
+}
+.Feedbacks .container .StartRow .SlideButtons button img {
+  height: 24px;
+}
+.Feedbacks .container .StartRow .SlideButtons .LeftSlide {
+  background: #ffffff;
+}
+.Feedbacks .container .StartRow .SlideButtons .RightSide {
+  background: #14d49e;
+}
+.Feedbacks .container .StartRow .SlideButtons .RightSide img {
+  rotate: 180deg;
+  filter: brightness(0) invert(1);
+}
+
+.UsersCard {
+  margin-top: 50px;
+}
+
+.UsersRow {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  width: auto;
+}

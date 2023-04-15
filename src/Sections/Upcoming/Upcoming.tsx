@@ -1,5 +1,5 @@
 import "./Upcoming.css";
-import PBG from "../../Images/PBG.png";
+import PBG from "../../Images/PBG.webp";
 import heartIcon from "../../Images/icons/heart.png";
 import shareIcon from "../../Images/icons/share.png";
 import userIcon from "../../Images/icons/user.png";

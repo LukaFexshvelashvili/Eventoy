@@ -1,4 +1,7 @@
+import Footer from "../Components/Footer/Footer";
 import Navbar from "../Components/Navbar/Navbar";
+import Feedbacks from "../Sections/Feedbacks/Feedbacks";
+import Newsletter from "../Sections/Newsletter/Newsletter";
 import PersonalEvent from "../Sections/PersonalEvent/PersonalEvent";
 import Schedules from "../Sections/Schedules/Schedules";
 import Services from "../Sections/Services/Services";
@@ -16,6 +19,11 @@ function App() {
         <Schedules />
         <Upcoming />
         <Services />
+      </div>
+      <Feedbacks />
+      <div className="container">
+        <Newsletter />
+        <Footer />
       </div>
     </div>
   );

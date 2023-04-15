@@ -12,6 +12,15 @@
   box-sizing: border-box;
 }
 
+::-webkit-scrollbar {
+  width: 10px;
+  background-color: #e9e9e9;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #14d49e;
+}
+
 img {
   user-select: none;
   pointer-events: none;
@@ -74,5 +83,180 @@ img {
 @media (min-width: 1600px) {
   .container {
     width: 1390px;
+  }
+}
+@media (max-width: 1200px) {
+  .g-6 {
+    width: 100%;
+  }
+  .Starter {
+    height: auto;
+    padding: 100px 0;
+  }
+  .Starter .SectionSplitter {
+    flex-direction: column;
+  }
+  .Starter .SectionSplitter .InfoSide {
+    text-align: center;
+    align-items: center;
+  }
+  .Starter .SectionSplitter .ImageSide {
+    width: 90%;
+  }
+  .Upcoming .SplitRows {
+    flex-direction: column-reverse;
+    gap: 40px;
+  }
+  .Upcoming .SplitRows .Populars {
+    justify-content: center;
+    width: 100%;
+    max-width: 650px;
+    padding: 0;
+  }
+  .Upcoming .SplitRows .PopularEvent {
+    margin: auto;
+  }
+  .ServiceCards {
+    align-items: center;
+    gap: 30px;
+  }
+  .ServiceCards .ServiceCard {
+    flex: 1;
+  }
+  .ServiceCards .ActiveService {
+    transform: translateY(0);
+  }
+}
+@media (max-width: 992px) {
+  .navToggle {
+    display: flex;
+  }
+  nav .navContent {
+    position: fixed;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100%;
+    width: 50%;
+    min-width: 250px;
+    background-color: #ffffff;
+    top: 0;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+    right: -100%;
+    z-index: 9;
+    transition: 0.4s;
+  }
+  nav .navContent ul {
+    flex-direction: column;
+  }
+  nav .navGet {
+    right: 0;
+  }
+  .SplitRows {
+    flex-direction: column-reverse;
+    gap: 40px;
+  }
+  .SplitRows .InfoSide {
+    text-align: center;
+  }
+  .SplitRows .ImageSide {
+    text-align: center;
+  }
+  .Schedules .SecRow {
+    flex-direction: column;
+    gap: 50px;
+  }
+  .Schedules .SecRow .LeftSide {
+    text-align: center;
+  }
+  .Schedules .SecRow .LeftSide p {
+    margin: auto;
+  }
+  .Schedules .SecRow .RightSide {
+    padding: 0;
+  }
+  .g-4 {
+    width: 100%;
+  }
+  .g-5 {
+    width: 100%;
+  }
+  .g-7 {
+    width: 100%;
+  }
+  .UsersRow {
+    flex-wrap: wrap;
+  }
+  .Newsletter {
+    width: 100%;
+  }
+}
+@media (max-width: 700px) {
+  footer {
+    flex-direction: column;
+    gap: 40px;
+  }
+  footer .FCol {
+    max-width: 100%;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+  }
+  .Starter .SectionSplitter .InfoSide .Details {
+    justify-content: center;
+  }
+}
+@media (max-width: 450px) {
+  .Feedbacks .container .StartRow {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+  .Feedbacks .container .StartRow .Title {
+    text-align: center;
+  }
+  .UserCard {
+    width: 100%;
+  }
+  .Newsletter h1 {
+    font-size: 32px;
+    line-height: 40px;
+  }
+  .Schedules .SecRow .RightSide .EventsRow {
+    gap: 60px;
+  }
+  .Event {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .Event p {
+    justify-content: center;
+  }
+}
+@media (max-width: 430px) {
+  .Title {
+    font-size: 32px;
+  }
+  .Starter .SectionSplitter .ImageSide img {
+    width: 90%;
+  }
+  .Upcoming .SplitRows .Populars {
+    gap: 60px;
+  }
+  .EventBanner {
+    flex-direction: column;
+    text-align: center;
+  }
+  .EventBanner .EventContent .Dets {
+    justify-content: center;
+  }
+  .SplitRows .ImageSide img {
+    width: 90%;
+  }
+  .ActiveService {
+    width: 100%;
+  }
+  .Schedules {
+    margin-top: 50px;
   }
 }

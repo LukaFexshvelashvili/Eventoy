@@ -1,6 +1,6 @@
-import Event1 from "../Images/Events/Event1.png";
-import Event2 from "../Images/Events/Event2.png";
-import Event3 from "../Images/Events/Event3.png";
+import Event1 from "../Images/Events/Event1.webp";
+import Event2 from "../Images/Events/Event2.webp";
+import Event3 from "../Images/Events/Event3.webp";
 
 const EventBannersAPI = [
   {

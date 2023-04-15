@@ -11,7 +11,7 @@ export default function Services() {
   }
   return (
     <div className="Services SecPadder">
-      <h1 className="Title">Which One Is Suitable For Yoy?</h1>
+      <h1 className="Title">Which One Is Suitable For You?</h1>
       <div className="ServiceCards">
         {ServicesAPI.map((e: PromotionInt, i) => (
           <Promotion

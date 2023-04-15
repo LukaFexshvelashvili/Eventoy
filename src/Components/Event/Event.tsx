@@ -1,5 +1,5 @@
 import "./Event.css";
-import Arrow from "../../Images/icons/ArrowRed.png";
+import Arrow from "../../Images/icons/ArrowYellow.png";
 
 export default function Event(props: {
   day: number;
@@ -20,7 +20,7 @@ export default function Event(props: {
         <p>{props.description}</p>
       </div>
       <div className="Arrow">
-        <img src={Arrow} alt="Arrow" />
+        <img src={Arrow} alt="ArrowYellow" />
       </div>
     </div>
   );
